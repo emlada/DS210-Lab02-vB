@@ -4,8 +4,7 @@ author: "Your Name"
 date: "Today's Date"
 output:
   html_document: 
-    keep_md: yes
-    theme: cerulean
+    theme: journal
 ---
 
 ```{r libs, message = FALSE, echo = FALSE}
