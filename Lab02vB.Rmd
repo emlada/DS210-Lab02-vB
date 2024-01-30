@@ -2,9 +2,9 @@
 title: "Lab 02 - Road Traffic Accidents"
 author: "Your Name"
 date: "Today's Date"
-output:
+output: 
   html_document: 
-    theme: journal
+    theme: cerulean
 ---
 
 ```{r libs, message = FALSE, echo = FALSE}
