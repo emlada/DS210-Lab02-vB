@@ -23,9 +23,10 @@ accidents <- read_rds("data/accidents.rds")
 
 # Exercises
 
-1.  Examine the structure of the dataset:  How many columns and observations (rows) does the dataset have? Instead of hard coding the number in your answer, use inline code.  
+1.  View the data using the `glimpse()` function.  What does each row represent?
 
-2.  View the data using the `glimpse()` function.  What does each row represent?
+2.  Examine the structure of the dataset:  How many columns and observations (rows) does the dataset have? Instead of hard coding the number in your answer, use inline code.  
+
 
 3.  Create a stacked bar chart that shows the distribution of accident severity by day of the week.  Read this [blog post](https://www.statology.org/ggplot-change-color-of-stacked-bars/) to see how to change the colors in your stacked bar chart.  Implement what you learn.  Be sure to also give your visualization appropriate axis labels and a title.   Don't forget to label your R code chunk. Your label should be short, informative, shouldn't include spaces, and shouldn't repeat a previous label.  **Write a sentence or two summarizing what can be learned from your visualization.**
 
@@ -45,7 +46,7 @@ knitr::include_graphics("img/Fig1.png")
 
 
 
-6.  Create another data visualization based on these data and interpret it. You can choose any variables and any type of visualization you like, but it must have at least three variables, e.g. a scatterplot of x vs. y isn't enough, but if points are colored by z, that's fine. In your answer, don't forget to label your R chunk as well.
+6.  Create another data visualization based on these data and interpret it. You can choose any variables and any type of visualization you like, but it must have at least three variables, e.g. a scatterplot of x vs. y isn't enough, but if points are colored by z, that's fine. In your answer, don't forget to label your R chunk as well.  Be sure to interpret your visualization.
 
 
 🧶 ✅ ⬆️ Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
